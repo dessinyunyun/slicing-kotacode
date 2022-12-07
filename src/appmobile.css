@@ -89,7 +89,7 @@
   }
 
   .whycontainer {
-    padding: 0 30px !important;
+    padding: 0 10px !important;
   }
 
   .whycontain {
@@ -127,8 +127,8 @@
   }
 
   .content-why img {
-    width: 90% !important;
-    height: 90%;
+    width: 100% !important;
+    height: 100%;
   }
 
   .content-why h3 {
