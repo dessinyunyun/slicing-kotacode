@@ -1,0 +1,112 @@
+.jumbotron-pokemon {
+  height: 100vh;
+  background-color: #b8c470;
+}
+
+.jumbo-card {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.position-absolute {
+  top: 0;
+  right: 0;
+}
+
+.pokemon {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.pikachu img {
+  margin-right: 30px;
+  margin-top: 10px;
+}
+
+.pokemon-content-contain {
+  margin-top: 100px;
+}
+
+.content-pokemon .card {
+  background-image: url(/bgfirst-pokemon.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 400px;
+  height: 400px;
+}
+
+.card-content {
+  background-image: url(/bg-pokemon-card.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 380px;
+  height: 200px;
+  padding: 0 15px;
+}
+
+.card-content img {
+  width: 100%;
+}
+
+@media screen and (max-width: 420px) {
+  .jumbotron-pokemon {
+    height: 100vh;
+    background-color: #b8c470;
+  }
+
+  .jumbo-card {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 100%;
+    position: relative;
+  }
+
+  .jumbo-card img {
+    width: 100%;
+  }
+
+  .pokemon {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .pikachu {
+    right: 0;
+    top: 0;
+    position: relative;
+  }
+
+  .pikachu img {
+    width: 40%;
+    margin: auto;
+    right: 0px;
+    left: 50px;
+  }
+
+  .pokemon-content-contain {
+    margin-top: 100px;
+  }
+
+  .content-pokemon {
+    width: 90%;
+  }
+
+  .content-pokemon .card {
+    background-image: none;
+    border: none;
+    background-position: center;
+    background-size: cover;
+    height: fit-content;
+    width: 100%;
+  }
+
+  .card-content {
+    background-image: url(/bg-pokemon-card.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    padding: 0 15px;
+  }
+
+  .card-content img {
+    width: 100%;
+  }
+}
