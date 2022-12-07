@@ -69,15 +69,16 @@
   }
 
   .pikachu {
-    right: 0;
+    left: 0;
     top: 0;
     position: relative;
+    display: flex;
   }
 
   .pikachu img {
     width: 40%;
     margin: auto;
-    right: 0px;
+    left: 0px;
     left: 50px;
   }
 
